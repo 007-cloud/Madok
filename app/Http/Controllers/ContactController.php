@@ -59,7 +59,7 @@ class ContactController extends Controller
      */
     public function edit($id)
     {
-
+        return view('read', ['num_id' => $id]);
     }
 
     /**
