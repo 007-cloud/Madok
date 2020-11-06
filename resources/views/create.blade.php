@@ -10,7 +10,7 @@
                 </div>
                 <div class="form-group mt-4 " style="width: 40%">
                     <label for="title">Phone Number</label>
-                    <input type="text" class="form-control" name="number" placeholder="Phone Number">
+                    <input type="number" class="form-control" name="number" placeholder="+7 xxx xx xx">
                 </div>
                 <button class="btn btn-success">Add Contact</button>
             </div>

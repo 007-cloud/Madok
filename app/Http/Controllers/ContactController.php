@@ -71,7 +71,7 @@ class ContactController extends Controller
      */
     public function update(Request $request, $id)
     {
-        return redirect()->route('contact.home', ['num_id' => $id])->with('edit', 'Your post is Updated');
+        return redirect()->route('contact.home', ['num_id' => $id])->with('edit', 'Your post is Updated ID: '. $id);
     }
 
     /**
@@ -82,6 +82,6 @@ class ContactController extends Controller
      */
     public function destroy($id)
     {
-        return redirect()->route('contact.home', ['num_id' => $id])->with('delete', 'Your post is Deleted');
+        return redirect()->route('contact.home', ['num_id' => $id])->with('delete', 'Your post is Deleted ID: '. $id);
     }
 }
